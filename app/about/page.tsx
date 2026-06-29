@@ -10,7 +10,7 @@ export default function About() {
         <Header />
 
         <section>
-          <div className="relative overflow-hidden rounded-[2.5rem] border border-slate-200 shadow-xl shadow-slate-200/40">
+          <div className="relative overflow-hidden rounded-[2.5rem] shadow-xl shadow-slate-200/40">
             <div className="relative h-80 sm:h-[32rem]">
               <Image src="/display.jpg" alt="Bignos display in the market" fill className="object-cover" />
             </div>
