@@ -14,7 +14,7 @@ export default function About() {
             <div className="relative h-80 sm:h-[32rem]">
               <Image src="/display.jpg" alt="Bignos display in the market" fill className="object-cover" />
             </div>
-            <div className="absolute inset-x-0 top-0 flex justify-end p-8">
+            <div className="absolute inset-x-0 top-0 hidden justify-end p-8 md:flex">
               <div className="max-w-sm rounded-[2rem] bg-slate-950/80 p-6 text-white shadow-2xl shadow-slate-950/20 backdrop-blur-sm">
                 <p className="text-xs uppercase tracking-[0.28em] text-amber-300">About Bigno&apos;s</p>
                 <h2 className="mt-2 text-2xl font-semibold">Handmade bites of Sicily!</h2>

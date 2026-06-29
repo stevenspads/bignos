@@ -16,6 +16,17 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Bignos — Sicilian Bignolati & Bakery",
   description: "Bignos serves fresh Sicilian sausage bread and bakery favorites in a warm local cafe-style experience.",
+  openGraph: {
+    title: "Bignos — Sicilian Bignolati & Bakery",
+    description: "Fresh Sicilian bignolati and bakery favorites made daily in Montreal.",
+    images: ["/logo.jpg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Bignos — Sicilian Bignolati & Bakery",
+    description: "Fresh Sicilian bignolati and bakery favorites made daily in Montreal.",
+    images: ["/logo.jpg"],
+  },
 };
 
 export default function RootLayout({

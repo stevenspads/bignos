@@ -21,7 +21,7 @@ export default function Footer() {
         <SiteNav className="flex flex-col gap-4 text-sm sm:flex-row sm:items-center" />
       </div>
       <div className="mt-8 border-t border-slate-200 pt-6 text-sm text-slate-500">
-        <p>© Bignos. Crafted in Montreal, QC.</p>
+        <p>© Bigno&apos;s. Crafted in Montreal, QC.</p>
       </div>
     </footer>
   );
